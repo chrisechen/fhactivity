@@ -1,0 +1,108 @@
+$co-000:#000;
+
+$co-222:#222;
+
+$co-333:#333;
+
+$co-444:#444;
+
+$co-666:#666;
+
+$co-888:#888;
+
+$co-999:#999;
+
+$co-ccc:#ccc;
+
+$co-ddd:#ddd;
+
+$co-fff:#fff;
+
+$co-black: #1B1C1F;
+
+$co-gray: #D6D9E4;
+
+$co-success:#71a436;
+
+$co-base:#85AFC1;
+
+$black-base:#323232;
+
+$black-light:#E6E9F4;
+
+$co-248AFD:#248AFD;
+
+$co-danger:#EC5050;
+
+$blue-base:#F8C272;
+
+$blue-bold:#85AFC1;
+
+$co-A94646:#A94646;
+
+$co-fff:#fff;
+
+$co-coffee: #846545;
+
+$co-826D51: #826D51;
+
+$co-E4E8F4:#E4E8F4;
+
+$co-orange: #ECB86C;
+
+$co-CECED0:#CECED0;
+
+$co-CCC:#CCC;
+
+$co-border:#D8D8D8;
+
+$co-B2B2B2:#B2B2B2;
+
+$co-line: #E1E4EE;
+
+$co-new-line: #CDD1DD;
+
+$co-new-holder: #B1B1B1;
+
+$co-new-txt: #BBC0CE;
+
+$co-new-icon: #B4B8C8;
+
+$co-green: #6CECB7;
+
+$co-pass: #2EC72E;
+
+$co-red: #F33831;
+
+$co-fail: #E67575;
+
+$co-blue: #82A8ED;
+
+$co-icon: #9FA5B9;
+
+$co-yellow: #F8C272;
+
+$co-orange: #FF8A00;
+
+$co-new-orange: #EDB96D;
+
+$co-txt: #343434;
+
+$co-icon2: #A0A6BA;
+
+$co-txt-gray: #858896;
+
+$co-holder: #B4B8C8;
+
+$txt-main: #303443;
+
+$txt-gray: #C1C4D3;
+
+$co-icon3: #B0B7D0;
+
+
+
+// 定义函数 rpx
+@function rpx($value) {
+  @return $value * 1rpx;
+}

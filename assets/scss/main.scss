@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/*如果你有一个 SCSS 或 Sass 文件需要引入，
+但是你又不希望它被编译为一个 CSS 文件，
+这时，你就可以在文件名前面加一个下划线，
+就能避免被编译。引入时还可以去掉_*/
+
+//base
+@import "./components/base.scss";
+

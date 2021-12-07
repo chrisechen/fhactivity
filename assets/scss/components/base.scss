@@ -1,0 +1,311 @@
+@import './color-variable';
+@font-face {
+	font-family: 'iconfont';
+	src: url('https://at.alicdn.com/t/font_708252_po5d247gmyk.ttf') format('truetype'),
+}
+
+.iconfont {
+    display: inline-block;
+    font-family: "iconfont" !important;
+    font-size: 28 rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: rpx(28);
+}
+
+body, html {
+    background-color: #f7f6fb;
+    color: $co-666;
+}
+
+.navbar{
+    box-shadow:0px 0px 10rpx 0px rgba(188,203,230,0.8) !important;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: #999 !important;
+}
+
+.over-hidden{
+    height: calc(100vh - 100rpx);
+    overflow: hidden;
+}
+
+.ovhidden{
+   overflow: hidden; 
+}
+
+.un-visible {
+    visibility: hidden;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap !important;
+    text-overflow: ellipsis;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.co-ff6666{
+    color: #ff6666;
+}
+
+.co-txt{
+    color: $co-txt !important;
+}
+
+.black-primary {
+    color: $co-666 !important;
+}
+
+.black-light {
+    color: $co-999 !important;
+}
+
+.black-bold {
+    color: $co-333 !important;
+}
+
+.mg-bottom-10 {
+    margin-bottom: rpx(10) !important;
+}
+
+.mg-bottom-20 {
+    margin-bottom: rpx(20);
+}
+
+.mg-bottom-30 {
+    margin-bottom: rpx(30);
+}
+
+.mg-top-20 {
+    margin-top: rpx(20);
+}
+
+.mg-top-30 {
+    margin-top: rpx(30);
+}
+
+.mg-top-40 {
+    margin-top: rpx(40) !important;
+}
+
+.mg-top-50 {
+    margin-top: rpx(50) !important;
+}
+
+.mg-top-60 {
+    margin-top: rpx(60);
+}
+
+.mg-top-70 {
+    margin-top: rpx(70) !important;
+}
+
+.mg-top-80 {
+    margin-top: rpx(80);
+}
+
+.mg-top-100 {
+    margin-top: rpx(100);
+}
+
+.mg-right-5 {
+    margin-right: rpx(5);
+}
+
+.mg-right-10 {
+    margin-right: rpx(10);
+}
+
+.mg-right-20 {
+    margin-right: rpx(20);
+}
+
+.mg-right-30 {
+    margin-right: rpx(30);
+}
+
+.mg-right-50 {
+    margin-right: rpx(50) !important;
+}
+
+.mg-right-55 {
+    margin-right: rpx(55) !important;
+}
+
+.mg-right-60 {
+    margin-right: rpx(60);
+}
+
+.mg-right-100 {
+    margin-right: rpx(100);
+}
+
+.mg-left-5 {
+    margin-left: rpx(5);
+}
+
+.mg-left-8 {
+    margin-left: rpx(8);
+}
+
+.mg-left-10 {
+    margin-left: rpx(10);
+}
+
+.mg-left-20 {
+    margin-left: rpx(20);
+}
+
+.mg-left-30 {
+    margin-left: rpx(30);
+}
+
+.mg-left-40 {
+    margin-left: rpx(40);
+}
+
+.mg-left-right-30{
+    margin-left: 30rpx !important;
+    margin-right: 30rpx !important;
+}
+
+.pd0{
+    padding: 0 !important;
+}
+
+.pd-left-10 {
+    padding-left: rpx(10);
+}
+
+.pd-left-15 {
+    padding-left: rpx(15);
+}
+
+.pd-left-20 {
+    padding-left: rpx(20);
+}
+
+.pd-left-30 {
+    padding-left: rpx(30);
+}
+
+.pd-left-40 {
+    padding-left: rpx(40);
+}
+
+.pd-left-44 {
+    padding-left: rpx(44);
+}
+
+.pd-right-30 {
+    padding-right: rpx(30);
+}
+
+.pd-top-0 {
+    padding-top: rpx(0) !important;
+}
+
+.pd-top-10 {
+    padding-top: rpx(10) !important;
+}
+
+.pd-top-15 {
+    padding-top: rpx(15);
+}
+
+.pd-top-20 {
+    padding-top: rpx(20) !important;
+}
+
+.pd-top-30 {
+    padding-top: rpx(30) !important;
+}
+
+.pd-top-40 {
+    padding-top: rpx(40);
+}
+
+.pd-top-90 {
+    padding-top: rpx(90);
+}
+
+.pd-top-100 {
+    padding-top: rpx(100);
+}
+
+.pd-bottom-0 {
+    padding-bottom: rpx(0) !important;
+}
+
+.pd-bottom-10 {
+    padding-bottom: rpx(10) !important;
+}
+
+.pd-bottom-20 {
+    padding-bottom: rpx(20) !important;
+}
+
+.pd-bottom-30 {
+    padding-bottom: rpx(30) !important;
+}
+
+.pd-bottom-40 {
+    padding-bottom: rpx(40) !important;
+}
+.mg-top-20 {
+    margin-top: rpx(20);
+}
+.mg-top-30 {
+    margin-top: rpx(30);
+}
+.mg-bottom-30{
+    margin-bottom: rpx(30);
+}
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.op50{
+    opacity: 0.5;
+}
+.op30{
+    opacity: 0.3;
+}
+.op0{
+    opacity: 0 !important;
+}
