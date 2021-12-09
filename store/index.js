@@ -8,7 +8,10 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-// 引入模块
+//按模块引入
+import user from './modules/user'
+
+// 引入公共vuex
 import actions from './actions';
 import getters from './getters';
 import mutations from './mutations';
@@ -16,6 +19,9 @@ import state from './states';
 
 Vue.use(Vuex);
 export default new Vuex.Store({
+	modules: {
+		user
+	},
 	state,
 	getters,
 	actions,

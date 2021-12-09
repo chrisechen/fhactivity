@@ -1,5 +1,5 @@
 {
-    "name" : "fhrs",
+    "name" : "榕数活动",
     "appid" : "__UNI__E609CFF",
     "description" : "",
     "versionName" : "1.0.0",
@@ -57,7 +57,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx5ae3e28070af4f2b",
+        "appid" : "wx26ac67af61da16ec",
         "setting" : {
             "urlCheck" : false
         },

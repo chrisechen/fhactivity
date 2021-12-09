@@ -9,7 +9,6 @@
 <script>
 	import { cookieStorage, localStorage} from 'common/storage'
 	import helloChild from '@/components/home-child/home-child.vue'
-	import { SET_USER_INFO } from 'store/mutations/type'
 	import {mapMutations} from 'vuex'
 	export default {
 		components:{
@@ -21,24 +20,29 @@
 			};
 		},
 		onLoad(options) {
-			this.getTest()
-			this.getTest2()
+			//this.getTest()
+			//this.getTest2()
 			localStorage.set('testStorage', 11234) 
 			console.log(localStorage.get('testStorage'))
 			
 			cookieStorage.set('testCookie', 'wxmini')  //cookie应该不怎么用的上，一般用localstorage即可
-			console.log(cookieStorage.get('testCookie'))
+			//console.log(cookieStorage.get('testCookie'))
 			
 			//vuex
-			this.set_user_info({
+			this.$store.dispatch('user/setUserInfo', {
 				name: 'chrisechen',
-				age: 27
+				sex: 'male'
 			})
+			this.setDemoInfo({name: '哈哈'})
+			console.log(this.$store.state.user.userInfo)
+			console.log(this.$store.state.user.demoInfo)
+			// this.set_user_info({
+			// 	name: 'chrisechen1',
+			// 	age: 27
+			// })
 		},
 		methods: {
-			...mapMutations({
-				set_user_info: SET_USER_INFO
-			}),
+			...mapMutations('user', ['setDemoInfo']),  //将setDemoInfo   映射到store中
 			async getTest() {
 				const params = {
 					agentCode: "720020078",
